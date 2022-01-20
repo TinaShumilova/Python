@@ -84,12 +84,18 @@
 #print(inverted)
 
 #while-else
-original = 23
-inverted = 0
-while original != 0:
-    inverted = inverted * 10 + (original % 10)
-    original //= 10
-else: 
-    print('Пожалуй')
-    print('хватит )')
-print(inverted)
+#original = 23
+#inverted = 0
+#while original != 0:
+#    inverted = inverted * 10 + (original % 10)
+#    original //= 10
+#else: 
+#    print('Пожалуй')
+#    print('хватит )')
+#print(inverted)
+
+#for
+for i in 1, -2, 3, 14, 5:
+    print(i**2)
+
+    
