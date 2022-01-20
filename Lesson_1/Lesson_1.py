@@ -95,7 +95,9 @@
 #print(inverted)
 
 #for
-for i in 1, -2, 3, 14, 5:
-    print(i**2)
+#for i in 1, -2, 3, 14, 5:
+#    print(i**2)
 
-    
+r = range(10)
+for i in r:
+    print(i)
