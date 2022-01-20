@@ -65,12 +65,20 @@
 #    print(b)
 
 # if-elif-else
-username = input('Введите имя: ')
-if username == 'Маша':
- print('Ура, это же МАША!')
-elif username == 'Марина':
- print('Я так ждала Вас, Марина!')
-elif username == 'Ильнар':
- print('Ильнар - топ)')
-else:
- print('Привет, ', username)
+#username = input('Введите имя: ')
+#if username == 'Маша':
+# print('Ура, это же МАША!')
+#elif username == 'Марина':
+# print('Я так ждала Вас, Марина!')
+#elif username == 'Ильнар':
+# print('Ильнар - топ)')
+#else:
+# print('Привет, ', username)
+
+#while
+original = 23
+inverted = 0
+while original != 0:
+    inverted = inverted * 10 + (original % 10)
+    original //= 10
+print(inverted)
