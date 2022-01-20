@@ -52,3 +52,6 @@
 
 f = [1, 2, 3, 4]
 print(2 in f)
+
+is_odd = not f[0]%2
+print(is_odd)
