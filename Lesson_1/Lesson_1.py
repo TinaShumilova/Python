@@ -21,14 +21,29 @@
 # print(f'{a} - {b} - {text}')  
 
 # boolean
-s = True
-print(s)
+#s = True
+#print(s)
 #list
-list_1 = []
-list_2 = [1, 2, 3]
-list_3 = ['1', '2', '3', 'hello']
-list_4 = ['1', '2', '3', 'hello', 1.5248, True]
-print(list_1)
-print(list_2)
-print(list_3)
-print(list_4)
+#list_1 = []
+#list_2 = [1, 2, 3]
+#list_3 = ['1', '2', '3', 'hello']
+#list_4 = ['1', '2', '3', 'hello', 1.5248, True]
+#print(list_1)
+#print(list_2)
+#print(list_3)
+#print(list_4)
+
+
+# Ввод и выод данных
+#print('введите a')
+#a = int(input())
+#print('введите b')
+#b = int(input())
+#print(type(a), b)
+#print(a, '+', b, '=', a+b)
+
+#Арифметические операции
+a = 1233
+b = 58745
+c = a+b
+print(c)
