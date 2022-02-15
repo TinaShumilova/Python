@@ -98,6 +98,10 @@
 #for i in 1, -2, 3, 14, 5:
 #    print(i**2)
 
-r = range(10)
-for i in r:
-    print(i)
+#r = range(10)
+def cikle(r):
+    a = range(r)
+    for i in a:
+        print(i)
+
+
